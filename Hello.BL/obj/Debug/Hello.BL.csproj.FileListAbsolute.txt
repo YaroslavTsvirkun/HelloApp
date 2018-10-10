@@ -1,0 +1,9 @@
+D:\Projects\Test\Hello\Hello.BL\bin\Debug\Hello.BL.dll
+D:\Projects\Test\Hello\Hello.BL\bin\Debug\Hello.BL.pdb
+D:\Projects\Test\Hello\Hello.BL\obj\Debug\Hello.BL.csprojAssemblyReference.cache
+D:\Projects\Test\Hello\Hello.BL\obj\Debug\Hello.BL.csproj.CoreCompileInputs.cache
+D:\Projects\Test\Hello\Hello.BL\obj\Debug\Hello.BL.dll
+D:\Projects\Test\Hello\Hello.BL\obj\Debug\Hello.BL.pdb
+D:\Projects\Test\Hello\Hello.BL\bin\Debug\Ninject.dll
+D:\Projects\Test\Hello\Hello.BL\bin\Debug\Ninject.xml
+D:\Projects\Test\Hello\Hello.BL\obj\Debug\Hello.BL.csproj.CopyComplete
