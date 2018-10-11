@@ -23,7 +23,7 @@ namespace Hello.Controllers
 
         public ActionResult Index()
         {
-            Greeting greeting = new Greeting();
+            Greeter greeting = new Greeter();
             greeting = greeter.SayHello();
             return View(greeting);
         }

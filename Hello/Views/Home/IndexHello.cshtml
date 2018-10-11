@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "IndexHello";
+}
+
+<h2>Index Hello</h2>
+
+<div id="divBlock"></div>
+
+@section scripts
+{
+    <script type="text/javascript">
+    // Получение всех книг по ajax-запросу
+    function Get() {
+        $.ajax({
+            url: '/api/Hello',
+            type: 'GET',
+            dataType: 'json',
+            success: function (data) {
+                WriteResponse(data);
+            },
+            error: function (x) {
+                alert(x + '\n');
+            }
+        });
+    }
+
+    // вывод полученных данных на экран
+    function WriteResponse(data) {
+        var strResult = "<div>data</div>";
+        $("#divBlock").html(strResult);
+    }
+    </script>
+}

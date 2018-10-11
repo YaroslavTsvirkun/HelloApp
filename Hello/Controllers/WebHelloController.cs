@@ -23,9 +23,9 @@ namespace Hello.Controllers
             greeter = ninjectKernel.Get<IGreeter>();
         }
 
-        public Greeting Get()
+        public Greeter Get()
         {
-            Greeting greeting = new Greeting();
+            Greeter greeting = new Greeter();
             greeting = greeter.SayHello();
             return greeting;
         }

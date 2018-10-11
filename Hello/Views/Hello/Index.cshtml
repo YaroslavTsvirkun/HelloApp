@@ -1,4 +1,4 @@
-﻿@model Hello.BL.Models.Greeting
+﻿@model Hello.BL.Models.Greeter
 @{
     ViewBag.Title = "Hello";
 }
@@ -41,7 +41,7 @@
                 </thead>
                 <tbody data-bind="foreach: model.greetings">
                     <tr>
-                        <td data-bind="text: GreetingId">@Model.GreetingId</td>
+                        <td data-bind="text: GreetingId">@Model.GreeterId</td>
                         <td data-bind="text: Name">@Model.Name</td>
                     </tr>
                 </tbody>
